@@ -1,8 +1,6 @@
-* {
-    margin: 10;
-    padding: 10;
-}
+
 .title {
+    
     position: relative;
     top: 0px;
     left: -100px;
@@ -13,9 +11,7 @@
     right: -60px;
     font-family: lexend;
 }
-.logo {
-   
-}
+
 .orange {
     position: relative;
     top: -20px;
@@ -105,4 +101,27 @@ margin-right: 0;
     position: relative;
     margin-top: 100px;
     margin-left: 200px;
+}
+.container {
+    width: min(90%, 1000px);
+    border: 3px solid pink;
+}
+@media screen and (max-width: 468px) {
+    .start {
+       max-width: 10%,20px;
+    }
+    .navlinks {
+        max-width: 10%,20px;
+    }
+    .title {
+        max-width: 10%,2S0px;
+
+    }
+    body {
+        background-color: red;
+        background-image: radial-gradient(whitesmoke, red;
+    
+    }
+    
+    
 }
